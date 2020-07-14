@@ -10,7 +10,7 @@ const Button = props => {
 						<a
 							href={props}
 							onClick={e => e.preventDefault()}
-							className='btn button btn-outline-info '>
+							className='btn p-3 btn-outline-light'>
 							{props.content}
 						</a>
 					</div>

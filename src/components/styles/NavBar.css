@@ -1,8 +1,8 @@
 .mdtContainer {
 	max-width: 1300px;
 	margin: 0 auto;
-	/* border-right: 10px solid blue;
-	border-left: 10px solid blue; */
+	border-right: 10px solid blue;
+	border-left: 10px solid blue;
 }
 
 .navbar-nav a {
@@ -14,6 +14,5 @@
 }
 .container-navbar {
 	background: rgba(175, 191, 192, 0.25);
-	z-index: 0;
 	width: 100%;
 }

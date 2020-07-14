@@ -11,8 +11,8 @@ function App(props) {
 		<Layout>
 			<Hero />
 			<Services />
-			<AboutUs />
-			<Form />
+			{/* <AboutUs />
+			<Form /> */}
 		</Layout>
 	);
 }

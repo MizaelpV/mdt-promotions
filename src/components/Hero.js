@@ -5,7 +5,7 @@ import Button from './Button';
 class Hero extends Component {
 	render() {
 		return (
-			<div className='heroContainer border'>
+			<div className='heroContainer'>
 				<div className='heroText'>
 					<h1>Welcome to</h1>
 					<span className='mdtName'>MDT-Promotions</span>
