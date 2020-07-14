@@ -10,9 +10,9 @@ function App(props) {
 	return (
 		<Layout>
 			<Hero />
-			{/* <Services />
+			<Services />
 			<AboutUs />
-			<Form /> */}
+			<Form />
 		</Layout>
 	);
 }
