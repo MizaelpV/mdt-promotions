@@ -1,0 +1,38 @@
+.container-layout {
+	margin: 0;
+	height: 100vh;
+}
+
+/* .mdtContainer {
+	max-width: 1300px;
+	margin: 0 auto;
+} */
+
+.content-video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.content-video video {
+	min-width: 100%;
+	min-height: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	/* filter: blur(4px); */
+}
+
+.container-overlay {
+	height: 100vh;
+	width: 100vw;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(86, 73, 76, 0.55);
+	z-index: 1;
+}

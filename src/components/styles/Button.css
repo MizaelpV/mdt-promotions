@@ -1,0 +1,8 @@
+.button {
+	width: 150px;
+	padding: 15px 0 !important;
+}
+
+.button:hover {
+	background: #000 !important;
+}

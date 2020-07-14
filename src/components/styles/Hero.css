@@ -1,0 +1,42 @@
+.heroContainer {
+	position: absolute;
+	width: 800px;
+	padding: 1rem;
+	/* bottom: 18%;
+	right: calc(100% - 1490px); */
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+	border-radius: 5px;
+	z-index: 4;
+}
+
+.heroText {
+	padding: 2rem;
+	color: #fff;
+	text-align: center;
+}
+
+.heroText h2 {
+	font-size: 40px;
+	text-transform: capitalize;
+	text-align: right;
+}
+
+.mdtName {
+	font-size: 80px;
+	font-weight: 900;
+	color: #fff;
+}
+
+.heroText p {
+	text-align: right;
+	margin: 0;
+}
+
+.heroText h1 {
+	font-size: 90px;
+	text-align: center;
+	margin: 0;
+}
