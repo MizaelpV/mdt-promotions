@@ -1,18 +1,17 @@
 .mdtContainer {
 	max-width: 1300px;
 	margin: 0 auto;
-	border-right: 10px solid blue;
-	border-left: 10px solid blue;
 }
 
 .navbar-nav a {
 	margin: 0 15px;
+	font-family: 'Roboto Mono', monospace;
 }
 .navbar-nav a:hover {
 	padding-bottom: 0;
 	border-bottom: 0.6px solid yellow;
 }
 .container-navbar {
-	background: rgba(175, 191, 192, 0.25);
+	background: rgba(36, 37, 37, 0.45);
 	width: 100%;
 }

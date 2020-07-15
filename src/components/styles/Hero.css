@@ -20,24 +20,75 @@
 	font-size: 40px;
 	text-transform: capitalize;
 	text-align: right;
+	font-family: 'Roboto Mono', monospace;
 }
 
 .mdtName {
 	font-size: 80px;
 	font-weight: 900;
 	color: #fff;
+	background: rgba(152, 185, 171, 0.6);
+	border-radius: 5px;
+	font-family: 'Fredoka One', cursive;
 }
 
 .heroText p {
 	margin: 0;
-	background: purple;
+	background: #33061b;
+	border-radius: 5px;
 	padding: 0.5rem;
 	align-self: flex-end;
+	font-family: 'Roboto Mono', monospace;
 }
 
-.heroText h1 {
-	font-size: 90px;
-	text-align: center;
+.heroText span {
+	font-family: 'Roboto Mono', monospace;
+	font-size: 45px;
+	text-align: left;
 	margin: 0;
-	background: rgb(2, 119, 2);
+}
+
+/*Media Queries*/
+
+@media screen and (max-width: 1024px) {
+	.heroContainer {
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.heroContainer {
+		width: 600px;
+	}
+	.mdtName {
+		font-size: 60px;
+	}
+	.heroText h2 {
+		font-size: 30px;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.heroContainer {
+		width: 93%;
+	}
+	.mdtName {
+		font-size: 30px;
+	}
+	.heroText h2 {
+		font-size: 20px;
+		text-align: center;
+	}
+	.heroText p {
+		font-size: 0.7rem;
+		align-self: center;
+	}
+}
+
+@media screen and (max-width: 375px) {
+	.heroText span {
+		font-size: 1.8rem;
+	}
 }

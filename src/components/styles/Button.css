@@ -1,8 +1,11 @@
 .button {
 	width: 150px;
 	padding: 15px 0 !important;
+	font-family: 'Roboto Mono', monospace;
 }
 
 .button:hover {
-	background: #000 !important;
+	color: #fff !important;
+	background: none !important;
+	text-decoration: underline !important;
 }

@@ -6,17 +6,8 @@ const Services = () => {
 	return (
 		<>
 			<div className='mdtContainer servicesContainer p-5  text-white text-center mt-5 align-middle'>
-				<div className='row pb-5 pw-5'>
-					<div className='text-container align-text-bottom'>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius id
-						eligendi mollitia fuga tenetur rerum earum eum odit repellendus
-						illum saepe ut temporibus ad voluptatem Lorem ipsum dolor sit amet
-						consectetur, adipisicing elit. Nihil quam aliquid veritatis, soluta
-						deserunt suscipit delectus vel quasi nulla esse optio odit sequi
-						quidem voluptatem assumenda odio dolor repellat nam?.
-					</div>
-				</div>
-				<div className='row services'>
+				<h2 className='servicesTitle'>Services</h2>
+				<div className='row'>
 					<div className='col-lg-4'>
 						<figure className='img-container'>
 							<a href='/services'>
@@ -26,6 +17,9 @@ const Services = () => {
 								/>
 							</a>
 						</figure>
+						<div className='btnContainer'>
+							<Button content='Boats' />
+						</div>
 					</div>
 					<div className='col-lg-4'>
 						<figure className='img-container'>
@@ -36,6 +30,9 @@ const Services = () => {
 								/>
 							</a>
 						</figure>
+						<div className='btnContainer'>
+							<Button content='Cars' />
+						</div>
 					</div>
 					<div className='col-lg-4'>
 						<figure className='img-container'>
@@ -46,10 +43,13 @@ const Services = () => {
 								/>
 							</a>
 						</figure>
+						<div className='btnContainer'>
+							<Button content='Events' />
+						</div>
 					</div>
 				</div>
 			</div>
-			<Button align='justify-content-center' content='Know more' />
+			{/* <Button align='justify-content-center' content='Know more' /> */}
 		</>
 	);
 };

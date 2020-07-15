@@ -8,7 +8,7 @@ function NavBar() {
 			<div className='mdtContainer'>
 				<nav className='navbar p-4  navbar-expand-lg navbar-dark'>
 					<a className='navbar-brand' href='/'>
-						Navbar
+						MDT Promotions
 					</a>
 					<button
 						className='navbar-toggler border'
