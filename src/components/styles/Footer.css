@@ -77,3 +77,9 @@
 		font-size: 5px;
 	}
 }
+
+@media screen and (max-width: 425px) {
+	.footer {
+		margin-top: 100px;
+	}
+}
