@@ -3,11 +3,6 @@
 	height: 100vh;
 }
 
-/* .mdtContainer {
-	max-width: 1300px;
-	margin: 0 auto;
-} */
-
 .content-video {
 	position: absolute;
 	top: 0;
@@ -24,7 +19,6 @@
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-	/* filter: blur(4px); */
 }
 
 .container-overlay {

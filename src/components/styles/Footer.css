@@ -4,7 +4,8 @@
 	height: 300px;
 	background: #000;
 	max-width: 100%;
-	margin-top: 100px;
+	width: 100%;
+	font-family: 'Roboto Mono', monospace;
 }
 
 .footer p {
@@ -69,4 +70,10 @@
 .author {
 	font-size: 7px;
 	color: rgba(255, 255, 255, 0.6);
+}
+
+@media screen and (max-width: 375px) {
+	.author {
+		font-size: 5px;
+	}
 }

@@ -1,1 +1,56 @@
+.figure {
+	position: relative;
+	width: 100%;
+}
 
+.imgAbout {
+	width: 100%;
+	height: 500px;
+	filter: blur(3px);
+}
+
+.containerAbout {
+	margin-top: 200px;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	width: 100%;
+	height: 502px;
+}
+
+.aboutText {
+	position: absolute;
+	z-index: 2;
+	color: #fff;
+	cursor: pointer;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.aboutText h3 {
+	font-size: 4rem;
+	margin-bottom: 1rem;
+	font-family: 'Fredoka One', cursive;
+}
+
+.aboutText p {
+	font-family: 'Roboto Mono', monospace;
+}
+
+@media screen and (max-width: 768px) {
+	.containerAbout {
+		margin-top: 600px;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.containerAbout {
+		margin-top: 324px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.containerAbout {
+		margin-top: 131px;
+	}
+}

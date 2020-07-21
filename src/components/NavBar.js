@@ -1,14 +1,14 @@
 import React from 'react';
-
+import whiteLogo from '../assets/whiteLogo.png';
 import './styles/NavBar.css';
 
 function NavBar() {
 	return (
 		<div className='container-navbar fixed-top'>
 			<div className='mdtContainer'>
-				<nav className='navbar p-4  navbar-expand-lg navbar-dark'>
+				<nav className='navbar navbar-expand-lg navbar-dark'>
 					<a className='navbar-brand' href='/'>
-						MDT Promotions
+						<img src={whiteLogo} alt='Logo' />
 					</a>
 					<button
 						className='navbar-toggler border'

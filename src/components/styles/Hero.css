@@ -85,6 +85,9 @@
 		font-size: 0.7rem;
 		align-self: center;
 	}
+	.firstBtn {
+		width: 150px !important;
+	}
 }
 
 @media screen and (max-width: 375px) {

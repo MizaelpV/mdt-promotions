@@ -1,10 +1,11 @@
 import React from 'react';
 import './styles/Button.css';
+import './styles/Services.css';
 
 const Button = props => {
 	return (
 		<div>
-			<div className={`container mt-5 d-flex ${props.align} `}>
+			<div className={`mt-3 d-flex ${props.align} ${props.size}`}>
 				<div className='row'>
 					<div className='col'>
 						<a

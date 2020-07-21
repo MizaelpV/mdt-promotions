@@ -1,16 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Roboto+Mono:ital,wght@1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
 * {
 	box-sizing: border-box;
 	padding: 0;
 	margin: 0;
 }
-
+html {
+	background: #33061b;
+}
 #root {
 	background: #33061b;
+	height: 100%;
 }
 
 .mdtContainer {
-	max-width: 1300px;
+	max-width: 1400px;
+	max-height: 100vh;
 	margin: 0 auto;
+	position: relative;
 }

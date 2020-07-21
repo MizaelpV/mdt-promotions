@@ -9,7 +9,7 @@ function Layout(props) {
 		<>
 			<header className='container-layout'>
 				<div className='content-video'>
-					<video src={VideoHero} autoPlay></video>
+					<video src={VideoHero} loop autoPlay></video>
 				</div>
 				<div className='container-overlay'></div>
 				<NavBar />
