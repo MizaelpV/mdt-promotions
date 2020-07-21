@@ -39,18 +39,24 @@
 
 @media screen and (max-width: 768px) {
 	.containerAbout {
-		margin-top: 600px;
+		margin-top: 800px;
 	}
 }
 
 @media screen and (max-width: 425px) {
 	.containerAbout {
-		margin-top: 324px;
+		margin-top: 848px;
 	}
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 375px) {
 	.containerAbout {
-		margin-top: 131px;
+		margin-top: 848px;
+	}
+}
+
+@media screen and (max-width: 360px) {
+	.containerAbout {
+		margin-top: 871px;
 	}
 }
