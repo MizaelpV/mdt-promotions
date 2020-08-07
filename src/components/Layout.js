@@ -7,7 +7,7 @@ import Footer from './Footer';
 function Layout(props) {
 	return (
 		<>
-			<header className='container-layout'>
+			<header id='hero' className='container-layout'>
 				<div className='content-video'>
 					<video src={VideoHero} loop autoPlay></video>
 				</div>

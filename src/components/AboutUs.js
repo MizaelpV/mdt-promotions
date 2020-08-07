@@ -4,14 +4,13 @@ import './styles/AboutUs.css';
 const AboutUs = () => {
 	return (
 		<>
-			<div className='containerAbout text-center text-white'>
+			<div id='aboutUs' className='containerAbout text-center text-white'>
 				<figure className='figure'>
 					<img
 						className='imgAbout'
 						src='https://images.pexels.com/photos/248747/pexels-photo-248747.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500'
 						alt=''
 					/>
-					{/* <div className='overlayAbout'></div> */}
 					<div className='aboutText'>
 						<h3>Our Mission</h3>
 						<p>

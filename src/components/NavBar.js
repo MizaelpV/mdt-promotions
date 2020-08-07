@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import whiteLogo from '../assets/whiteLogo.png';
 import './styles/NavBar.css';
 
@@ -7,9 +8,9 @@ function NavBar() {
 		<div className='container-navbar fixed-top'>
 			<div className='mdtContainer'>
 				<nav className='navbar navbar-expand-lg navbar-dark'>
-					<a className='navbar-brand' href='/'>
+					<Link className='navbar-brand' to='/mdt-promotions'>
 						<img src={whiteLogo} alt='Logo' />
-					</a>
+					</Link>
 					<button
 						className='navbar-toggler border'
 						type='button'
@@ -25,18 +26,25 @@ function NavBar() {
 						className='collapse navbar-collapse text-center'
 						id='navbarNavAltMarkup'>
 						<div className='navbar-nav ml-auto'>
-							<a className='nav-item nav-link text-white' href='/'>
-								Home <span className='sr-only'>(current)</span>
-							</a>
-							<a className='nav-item nav-link text-white' href='#aboutUs'>
-								About us
-							</a>
-							<a className='nav-item nav-link text-white' href='/'>
+							<Link
+								className='nav-item nav-link text-white'
+								to='/mdt-promotions'>
+								Home <span className='sr-only'></span>
+							</Link>
+							<a
+								className='nav-item nav-link text-white'
+								href='/mdt-promotions#services'>
 								Services
 							</a>
 							<a
 								className='nav-item nav-link text-white'
-								href='/'
+								href='/mdt-promotions#aboutUs'>
+								About us
+							</a>
+
+							<a
+								className='nav-item nav-link text-white'
+								href='/mdt-promotions#contact'
 								tabIndex='-1'>
 								Contact
 							</a>

@@ -1,0 +1,280 @@
+.serviceContainer {
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+	width: 100%;
+	height: 630px;
+	position: relative;
+	margin: 40px 0;
+	padding: 0 2rem;
+	box-shadow: -1px 9px 38px -8px rgba(216, 112, 147, 0.34);
+	background: #000;
+}
+.imgContainer {
+	margin: 0;
+	width: 100%;
+}
+
+.imgContainer img {
+	width: 100%;
+	height: 610px;
+	object-fit: cover;
+}
+
+.textService {
+	width: 75%;
+	color: #fff;
+	padding: 1.5rem;
+	height: 70%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	margin: auto 0;
+	box-shadow: -1px 9px 38px -8px rgba(216, 112, 147, 0.54);
+	margin-right: 1.5rem;
+}
+
+.textService p {
+	font-size: 1.2rem;
+	font-family: 'Roboto Mono', monospace;
+}
+
+.titleCar {
+	margin-top: 140px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 140px;
+}
+
+.titleCar h1 {
+	font-size: 5.5rem;
+	font-family: 'Fredoka One', cursive;
+	text-transform: uppercase;
+	color: whitesmoke;
+	display: inline;
+	margin: 0;
+	padding: 0 2.5rem;
+	text-shadow: 4px 4px 2px rgba(216, 112, 147, 0.74);
+}
+.contactContainer {
+	margin-top: 50px;
+	display: flex;
+	justify-content: center;
+}
+.contactUs {
+	border: 1px solid white;
+	padding: 12px 10px;
+	width: 200px;
+	text-align: center;
+	color: #fff;
+	font-size: 1.1rem;
+	letter-spacing: 2px;
+	font-family: 'Roboto Mono', monospace;
+	transition: 0.5s;
+}
+
+.contactUs:hover {
+	color: #fff;
+	text-decoration: none;
+	background: rgba(216, 112, 147, 0.34);
+}
+
+.contactUs:active {
+	transform: scale(0.95);
+}
+
+/*Media Queries*/
+@media screen and (max-width: 1024px) {
+	.footerCar {
+		margin-top: 152px;
+	}
+
+	.serviceContainer {
+		display: flex;
+		flex-direction: row-reverse;
+		align-items: center;
+		width: 90%;
+		margin: 0 auto;
+		height: 630px;
+		position: relative;
+		padding: 0 2rem;
+		box-shadow: -1px 9px 38px -8px rgba(216, 112, 147, 0.34);
+		background: #000;
+	}
+	.textService {
+		width: 70%;
+		color: #fff;
+		padding: 15px;
+		height: 60%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		border: 1px solid white;
+		margin-right: 1.5rem;
+		margin-left: -2px;
+	}
+
+	.textService p {
+		font-size: 0.8rem;
+	}
+	.contactContainer {
+		margin-top: 25px;
+	}
+
+	a.contactUs {
+		width: 144px;
+		font-size: 0.8rem;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.titleCar {
+		margin-top: 130px;
+		text-align: center;
+		padding: 15px 0;
+	}
+	.titleCar h1 {
+		font-size: 3.4rem;
+		color: #fff;
+		margin-bottom: 0;
+		text-shadow: 2px 2px 2px rgba(216, 112, 147, 0.74);
+	}
+
+	.serviceContainer {
+		display: flex;
+		width: 95%;
+		height: 565px;
+		position: relative;
+		margin: 0 auto;
+		margin-top: 0;
+	}
+	.textService {
+		width: 89%;
+		color: #fff;
+		/* padding-top: 10px; */
+		height: 50%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	.textService p {
+		font-size: 0.6rem;
+		margin: 0;
+		padding: 0 15px;
+	}
+
+	.imgContainer img {
+		height: 450px;
+	}
+	.contactContainer {
+		margin-top: 30px;
+	}
+	a.contactUs {
+		width: 110px;
+		font-size: 0.6rem;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.titleCar {
+		margin-top: 130px;
+		text-align: center;
+	}
+	.titleCar h1 {
+		font-size: 2.5rem;
+		color: #fff;
+		margin-bottom: 0;
+	}
+
+	.serviceContainer {
+		display: flex;
+		width: 90%;
+		height: 545px;
+		position: relative;
+		margin: 0 auto;
+		flex-direction: column;
+	}
+
+	.textService {
+		width: 89%;
+		color: #fff;
+		padding: 0;
+		height: 40%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		margin: 0 auto;
+		border: 0.5px solid rgba(255, 255, 255, 0.4);
+	}
+
+	.textService p {
+		font-size: 0.5rem;
+	}
+
+	.imgContainer {
+		height: 300px;
+	}
+
+	a.contactUs {
+		width: 100px;
+		font-size: 0.6rem;
+		padding: 8px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.titleCar {
+		margin-top: 160px;
+		text-align: center;
+	}
+	.titleCar h1 {
+		font-size: 2.5rem;
+		color: #fff;
+		margin-bottom: 0;
+	}
+
+	.serviceContainer {
+		display: flex;
+		width: 90%;
+		height: 565px;
+		position: relative;
+		margin: 0 auto;
+		margin-top: 20px;
+		flex-direction: column;
+	}
+
+	.textService {
+		width: 94%;
+		color: #fff;
+		padding: 0;
+		height: 40%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	.imgContainer {
+		height: 300px;
+	}
+
+	.contactContainer {
+		margin-top: 15px;
+	}
+
+	a.contactUs {
+		width: 75px;
+		padding: 5px;
+		font-size: 0.4rem;
+	}
+}

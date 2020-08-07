@@ -5,7 +5,7 @@ class Form extends Component {
 	render() {
 		return (
 			<>
-				<div className='mdtContainer text-white'>
+				<div id='contact' className='mdtContainer text-white'>
 					<div className='formContainer'>
 						<div className='textForm'>
 							<h2 className='touch'>Get in touch</h2>
@@ -27,10 +27,10 @@ class Form extends Component {
 									placeholder='Select your '
 									name='select'
 									data-show-icon='true'>
-									<option selected label=''></option>
-									<option value='Rent a car'>Rent a car </option>
-									<option value='Rent a Yatch'>Rent a Yatch</option>
-									<option value='Party'>Party</option>
+									<option defaultValue label=''></option>
+									<option defaultValue='Rent a car'>Rent a car </option>
+									<option defaultValue='Rent a Yatch'>Rent a Yatch</option>
+									<option defaultValue='Party'>Party</option>
 								</select>
 								<textarea
 									className='textTarea'

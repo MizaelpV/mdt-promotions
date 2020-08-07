@@ -97,4 +97,10 @@ textarea {
 		font-size: 12px !important;
 		padding: 12px 16px !important;
 	}
+
+	@media screen and (max-width: 375px) {
+		.formContainer {
+			margin-bottom: 300px;
+		}
+	}
 }

@@ -1,0 +1,197 @@
+.boatContainer {
+	background: #152842;
+	background: linear-gradient(to right, #2980b9, #6dd5fa);
+}
+.titleBoat {
+	margin-top: 140px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 140px;
+	text-shadow: 4px 4px 2px rgba(39, 64, 100, 0.44);
+}
+
+.titleBoat h1 {
+	font-size: 5.5rem;
+	font-family: 'Fredoka One', cursive;
+	text-transform: uppercase;
+	color: whitesmoke;
+	display: inline;
+	margin: 0;
+	padding: 0 2.5rem;
+}
+.serviceBoatContainer {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	height: 630px;
+	position: relative;
+	margin: 40px 0;
+	box-shadow: -1px 9px 38px -8px rgba(39, 64, 100, 0.94);
+	background: #93b9d6;
+	background: linear-gradient(to right, #2980b9, #6dd5fa, #ffffff);
+	overflow: hidden;
+}
+.imgBoatContainer {
+	margin: 0;
+	width: 100%;
+	padding: 0;
+}
+
+.imgBoatContainer img {
+	width: 100%;
+	height: 635px;
+	object-fit: cover;
+}
+.textBoatService {
+	width: 70%;
+	color: #fff;
+	padding: 1.5rem;
+	height: 70%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	box-shadow: -1px 9px 38px -8px rgba(39, 64, 100, 0.44);
+	margin: 0 1.5rem;
+}
+
+.textBoatService p {
+	font-size: 1.1rem;
+	font-family: 'Roboto Mono', monospace;
+}
+
+.contactBoatContainer {
+	margin-bottom: 50px;
+	display: flex;
+	justify-content: center;
+}
+.contactUsBoat {
+	border: 1px solid white;
+	padding: 12px 10px;
+	width: 200px;
+	text-align: center;
+	color: #fff;
+	font-size: 1.1rem;
+	letter-spacing: 2px;
+	font-family: 'Roboto Mono', monospace;
+	transition: 0.5s;
+}
+
+.contactUsBoat:hover {
+	color: #fff;
+	text-decoration: none;
+	background: rgba(39, 64, 100, 0.34);
+}
+
+.contactUsBoat:active {
+	transform: scale(0.95);
+}
+
+/*Media queries*/
+@media screen and (max-width: 1024px) {
+	.footerBoat {
+		margin-top: 145px;
+	}
+	.titleBoat h1 {
+		margin-top: 27px;
+	}
+	.serviceBoatContainer {
+		width: 90%;
+		margin: 40px auto;
+	}
+	.textBoatService {
+		box-shadow: -1px 9px 38px -8px rgba(39, 64, 100, 0.64);
+	}
+
+	.textBoatService p {
+		padding: 0 !important;
+		font-size: 0.95rem;
+	}
+
+	.contactBoatContainer {
+		margin-bottom: 0;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.titleBoat h1 {
+		font-size: 4rem;
+	}
+
+	.textBoatService {
+		height: 65%;
+	}
+	.textBoatService p {
+		font-size: 0.8rem;
+	}
+
+	a.contactUsBoat {
+		width: 120px;
+		font-size: 0.6rem;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	.titleBoat h1 {
+		font-size: 3rem;
+	}
+
+	.serviceBoatContainer {
+		width: 90%;
+		height: 500px;
+		margin-bottom: 20px;
+		flex-direction: column-reverse;
+		background: linear-gradient(to top, #2980b9, #6dd5fa, #ffffff);
+	}
+
+	.textBoatService {
+		height: 50%;
+		position: absolute;
+		bottom: 10px;
+		background: rgba(41, 128, 185, 0.86);
+		margin: 0;
+	}
+	.textBoatService p {
+		font-size: 0.6rem;
+	}
+
+	a.contactUsBoat {
+		width: 96px;
+		padding: 8px;
+	}
+}
+@media screen and (max-width: 375px) {
+	.serviceBoatContainer {
+		height: 500px;
+		margin-bottom: 0;
+	}
+	.textBoatService p {
+		font-size: 0.5rem;
+	}
+	a.contactUsBoat {
+		width: 100px;
+		padding: 8px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.titleBoat h1 {
+		font-size: 2rem;
+	}
+	.textBoatService {
+		height: 35%;
+	}
+
+	.textBoatService p {
+		font-size: 0.45rem;
+	}
+
+	a.contactUsBoat {
+		width: 85px;
+		padding: 5px;
+		font-size: 0.5rem;
+	}
+}

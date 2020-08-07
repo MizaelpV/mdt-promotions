@@ -1,19 +1,21 @@
 import React from 'react';
-import Hero from './Hero';
-import Layout from './Layout';
-import Services from './Services';
-import AboutUs from './AboutUs';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import CarServices from '../pages/CarServices';
+import AppBuild from '../pages/AppBuild';
+import BoatsService from '../pages/BoatsService';
+import EventService from '../pages/EventService';
 import './styles/App.css';
-import Form from './Form';
 
-function App(props) {
+function App() {
 	return (
-		<Layout>
-			<Hero />
-			<Services />
-			<AboutUs />
-			<Form />
-		</Layout>
+		<BrowserRouter>
+			<Switch>
+				<Route exact path='/mdt-promotions' component={AppBuild} />
+				<Route exact path='/carservices' component={CarServices} />
+				<Route exact path='/boatservices' component={BoatsService} />
+				<Route exact path='/eventservice' component={EventService} />
+			</Switch>
+		</BrowserRouter>
 	);
 }
 

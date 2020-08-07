@@ -72,10 +72,22 @@
 	color: rgba(255, 255, 255, 0.6);
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 1024px) {
 	.footer {
-		margin-top: 100px;
+		margin-top: 70px;
 	}
+}
+
+@media screen and (max-width: 768px) {
+	.footer {
+		margin-top: ;
+	}
+}
+
+@media screen and (max-width: 425px) {
+	/* .footer {
+		margin-top: 100px;
+	} */
 }
 
 @media screen and (max-width: 375px) {
@@ -83,13 +95,13 @@
 		font-size: 5px;
 	}
 	.footer {
-		margin-top: 155px;
+		margin-top: 200px;
 	}
 }
 @media screen and (max-width: 360px) {
-	.footer {
+	/* .footer {
 		margin-top: 200px;
-	}
+	} */
 }
 
 @media screen and (max-width: 320px) {
