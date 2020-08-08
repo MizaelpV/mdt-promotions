@@ -3,7 +3,7 @@ import './styles/CarService.css';
 import carCover from '../assets/cars/carCover.jpg';
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
-import Slider from '../components/SliderCar';
+import SliderCar from '../components/SliderCar';
 
 const CarServices = () => {
 	return (
@@ -38,7 +38,7 @@ const CarServices = () => {
 				</div>
 			</div>
 
-			{/* <Slider /> */}
+			<SliderCar />
 
 			<div className='footerCar'>
 				<Footer />

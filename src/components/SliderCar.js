@@ -1,58 +1,61 @@
 import React from 'react';
 import './styles/Slider.css';
+
 import carOne from '../assets/cars/car1.jpg';
 import carTwo from '../assets/cars/car2.jpg';
 import carThree from '../assets/cars/car3.jpg';
 import carFour from '../assets/cars/car4.jpg';
 
 const SliderCar = () => {
-	const images = [
-		// carOne,
-		// carTwo,
-		// carThree,
-		// carFour,
-		'https://images.pexels.com/photos/909907/pexels-photo-909907.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260',
-		'https://images.pexels.com/photos/164634/pexels-photo-164634.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'
-	];
-	let cont = 0;
-
-	const forwardImage = () => {
-		if (cont >= images.length - 1) {
-			cont = 0;
-		} else {
-			cont++;
-		}
-		rendering(cont);
-	};
-
-	const backwardImage = () => {
-		if (cont <= 0) {
-			cont = images.length - 1;
-		} else {
-			cont--;
-		}
-		rendering(cont);
-	};
-
-	const rendering = () => {
-		let imageContain = document.getElementById('imageContain');
-		imageContain.src = images[cont];
-	};
-
 	return (
 		<>
-			<div className='mdtContainer mt-5'>
-				<div className='sliderContainer'>
-					<img id='imageContain' src={carOne} alt='cars' />
-					<div className='btnContainerSlider'>
-						<button className='btnForward' onClick={forwardImage}>
-							←
-						</button>
-						<button className='btnBackward' onClick={backwardImage}>
-							→
-						</button>
+			<div
+				id='carouselExampleIndicators'
+				className='carousel slide'
+				data-ride='carousel'>
+				<ol className='carousel-indicators'>
+					<li
+						data-target='#carouselExampleIndicators'
+						data-slide-to='0'
+						className='active'></li>
+					<li data-target='#carouselExampleIndicators' data-slide-to='1'></li>
+					<li data-target='#carouselExampleIndicators' data-slide-to='2'></li>
+					<li data-target='#carouselExampleIndicators' data-slide-to='3'></li>
+				</ol>
+				<div className='carousel-inner mdtContainer'>
+					<div className='carousel-item active'>
+						<img className='d-block w-100' src={carOne} alt='First slide' />
+					</div>
+					<div className='carousel-item'>
+						<img className='d-block w-100' src={carTwo} alt='Second slide' />
+					</div>
+					<div className='carousel-item'>
+						<img className='d-block w-100' src={carThree} alt='Third slide' />
+					</div>
+					<div className='carousel-item'>
+						<img className='d-block w-100' src={carFour} alt='Fourth slide' />
 					</div>
 				</div>
+				<a
+					className='carousel-control-prev'
+					href='#carouselExampleIndicators'
+					role='button'
+					data-slide='prev'>
+					<span
+						className='carousel-control-prev-icon'
+						aria-hidden='true'></span>
+					<span className='sr-only'>Previous</span>
+				</a>
+				<a
+					className='carousel-control-next'
+					href='#carouselExampleIndicators'
+					role='button'
+					data-slide='next'>
+					<span
+						className='carousel-control-next-icon'
+						aria-hidden='true'></span>
+					<span className='sr-only'>Next</span>
+				</a>
 			</div>
 		</>
 	);
