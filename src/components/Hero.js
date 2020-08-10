@@ -10,7 +10,12 @@ class Hero extends Component {
 					<span>Welcome to</span>
 					<h1 className='mdtName'>MDT Promotions</h1>
 					<h2>Are you planning an event?</h2>
-					<p>We can make your dreams come true 🔥</p>
+					<p>
+						We can make your dreams come true
+						<span role='img' aria-label='fire'>
+							🔥
+						</span>
+					</p>
 					<Button
 						align='justify-content-center'
 						content='Contact us'

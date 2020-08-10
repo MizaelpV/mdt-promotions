@@ -3,7 +3,7 @@ import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
 import boatService from '../assets/yatchMain.jpg';
 import './styles/BoatService.css';
-
+import SliderBoats from '../components/SliderBoats';
 const BoatsService = () => {
 	return (
 		<>
@@ -35,7 +35,7 @@ const BoatsService = () => {
 						</figure>
 					</div>
 				</div>
-				{/* <Slider /> */}
+				<SliderBoats />
 
 				<div className='footerBoat'>
 					<Footer />

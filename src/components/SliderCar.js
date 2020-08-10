@@ -1,10 +1,12 @@
 import React from 'react';
-import './styles/Slider.css';
+import './styles/SliderCar.css';
 
-import carOne from '../assets/cars/car1.jpg';
-import carTwo from '../assets/cars/car2.jpg';
-import carThree from '../assets/cars/car3.jpg';
-import carFour from '../assets/cars/car4.jpg';
+import carOne from '../assets/cars/carOne.jpg';
+import carTwo from '../assets/cars/carTwo.jpg';
+import carThree from '../assets/cars/carThree.jpg';
+import carFour from '../assets/cars/carFour.jpg';
+import carFive from '../assets/cars/carFive.jpg';
+import carSix from '../assets/cars/carSix.jpg';
 
 const SliderCar = () => {
 	return (
@@ -21,6 +23,8 @@ const SliderCar = () => {
 					<li data-target='#carouselExampleIndicators' data-slide-to='1'></li>
 					<li data-target='#carouselExampleIndicators' data-slide-to='2'></li>
 					<li data-target='#carouselExampleIndicators' data-slide-to='3'></li>
+					<li data-target='#carouselExampleIndicators' data-slide-to='4'></li>
+					<li data-target='#carouselExampleIndicators' data-slide-to='5'></li>
 				</ol>
 				<div className='carousel-inner mdtContainer'>
 					<div className='carousel-item active'>
@@ -34,6 +38,12 @@ const SliderCar = () => {
 					</div>
 					<div className='carousel-item'>
 						<img className='d-block w-100' src={carFour} alt='Fourth slide' />
+					</div>
+					<div className='carousel-item'>
+						<img className='d-block w-100' src={carFive} alt='Fourth slide' />
+					</div>
+					<div className='carousel-item'>
+						<img className='d-block w-100' src={carSix} alt='Fourth slide' />
 					</div>
 				</div>
 				<a

@@ -3,6 +3,7 @@ import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
 import EventPicture from '../assets/mainEventPicture.jpeg';
 import './styles/EventService.css';
+import SliderEvents from '../components/SliderEvents';
 
 const EventService = () => {
 	return (
@@ -35,7 +36,7 @@ const EventService = () => {
 						</div>
 					</div>
 				</div>
-				{/* <Slider /> */}
+				<SliderEvents />
 				<div className='footerEvent'>
 					<Footer />
 				</div>
