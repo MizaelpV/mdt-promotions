@@ -40,7 +40,7 @@ class Form extends Component {
 									name='message'
 									id='messageForm'
 									cols='30'
-									placeholder='Leave yor mesagge'
+									placeholder='Leave yor message'
 									rows='8'></textarea>
 							</div>
 							<div className='btnFormContainer mt-3'>
