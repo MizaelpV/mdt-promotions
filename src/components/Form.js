@@ -10,8 +10,11 @@ class Form extends Component {
 						<div className='textForm'>
 							<h2 className='touch'>Get in touch</h2>
 							<p>
-								Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque
-								provident iusto
+								Contact us, we offer several services and all of them aim to
+								make your idea a reality, you can specify which service you are
+								interested in, we will contact you to answer that it can be done
+								and that you have a team of professionals in event organization
+								who want to meet you to start working together
 							</p>
 						</div>
 

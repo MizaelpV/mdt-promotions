@@ -35,6 +35,8 @@
 
 .aboutText p {
 	font-family: 'Roboto Mono', monospace;
+	line-height: 1.5rem;
+	font-size: 1.2rem;
 }
 
 @media screen and (max-width: 768px) {
@@ -47,6 +49,11 @@
 	.containerAbout {
 		margin-top: 784px;
 	}
+	.aboutText p {
+		font-family: 'Roboto Mono', monospace;
+		line-height: 1rem;
+		font-size: 1rem;
+	}
 }
 
 @media screen and (max-width: 375px) {
@@ -58,5 +65,11 @@
 @media screen and (max-width: 360px) {
 	.containerAbout {
 		margin-top: 880px;
+	}
+
+	.aboutText p {
+		font-family: 'Roboto Mono', monospace;
+		line-height: 1rem;
+		font-size: 1rem;
 	}
 }

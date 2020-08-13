@@ -14,10 +14,13 @@ const AboutUs = () => {
 					<div className='aboutText'>
 						<h3>Our Mission</h3>
 						<p>
-							Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ducimus
-							soluta dolores aspernatur sint odit omnis exercitationem, nobis
-							voluptas delectus magnam debitis aut odio sapiente consequuntur
-							repellendus blanditiis facere, sit ex!
+							You are our mission, your experiences, your moments, your
+							memories, we want to be there for you, to listen to you and make
+							your dreams a reality. We accompany you from the idea to the
+							materialization, from a private event, a public event, a wedding,
+							a concert, you decide how to get there and we are the tool to make
+							it happen, we are eager to listen to you, get in touch, fill out
+							the form.
 						</p>
 					</div>
 				</figure>

@@ -17,6 +17,7 @@
 	width: 700px;
 	height: 500px;
 	filter: brightness(90%) hue-rotate(13deg) saturate(141%);
+	object-fit: cover;
 }
 
 .img-container img:hover {

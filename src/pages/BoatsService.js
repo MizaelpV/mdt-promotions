@@ -1,6 +1,6 @@
 import React from 'react';
 import NavBar from '../components/NavBar';
-import Footer from '../components/Footer';
+import FooterEvent from '../components/FooterEvent';
 import boatService from '../assets/yatchMain.jpg';
 import './styles/BoatService.css';
 import SliderBoats from '../components/SliderBoats';
@@ -16,13 +16,11 @@ const BoatsService = () => {
 					<div className='serviceBoatContainer'>
 						<div className='textBoatService'>
 							<p className='p-5'>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit.
-								Reprehenderit numquam nobis cumque perferendis obcaecati quaerat
-								atque exercitationem ipsa nam aperiam, tempora itaque blanditiis
-								nemo animi odit! Lorem ipsum dolor sit amet consectetur
-								adipisicing elit. Repellat, vero hic eos id voluptates saepe cum
-								omnis libero! Praesentium, eum tenetur! Voluptatem saepe
-								laudantium, adipisci cum praesentium in itaque odio!
+								We want to achieve several things, the first is to let you know
+								that 71% of the planet's surface is water, and the second is
+								that we have available all kinds of water vehicles, boats,
+								yachts, jet skis, if it can move on water we can get it for you,
+								for your event and for your moment at sea.
 							</p>
 							<div className='contactBoatContainer'>
 								<a className='contactUsBoat' href='/mdt-promotions#contact'>
@@ -37,9 +35,7 @@ const BoatsService = () => {
 				</div>
 				<SliderBoats />
 
-				<div className='footerBoat'>
-					<Footer />
-				</div>
+				<FooterEvent />
 			</div>
 		</>
 	);

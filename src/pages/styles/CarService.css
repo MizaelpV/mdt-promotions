@@ -89,10 +89,6 @@
 
 /*Media Queries*/
 @media screen and (max-width: 1024px) {
-	.footerCar {
-		margin-top: 152px;
-	}
-
 	.serviceContainer {
 		display: flex;
 		flex-direction: row-reverse;
@@ -156,7 +152,6 @@
 	.textService {
 		width: 89%;
 		color: #fff;
-		/* padding-top: 10px; */
 		height: 50%;
 		display: flex;
 		justify-content: center;

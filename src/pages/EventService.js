@@ -1,6 +1,6 @@
 import React from 'react';
 import NavBar from '../components/NavBar';
-import Footer from '../components/Footer';
+import FooterEvent from '../components/FooterEvent';
 import EventPicture from '../assets/mainEventPicture.jpeg';
 import './styles/EventService.css';
 import SliderEvents from '../components/SliderEvents';
@@ -20,13 +20,14 @@ const EventService = () => {
 						</figure>
 						<div className='textEventService'>
 							<p>
-								Lorem ipsum dolor sit amet consectetur adipisicing elit.
-								Reprehenderit numquam nobis cumque perferendis obcaecati quaerat
-								atque exercitationem ipsa nam aperiam, tempora itaque blanditiis
-								nemo animi odit! Lorem ipsum dolor sit amet consectetur
-								adipisicing elit. Repellat, vero hic eos id voluptates saepe cum
-								omnis libero! Praesentium, eum tenetur! Voluptatem saepe
-								laudantium, adipisci cum praesentium in itaque odio!
+								We believe in your ability to create, we believe that we are a
+								company that focuses on making things happen, focused on meeting
+								your expectations and meeting your needs, for this to happen you
+								need a team, we will take care of that. We only demand that you
+								have a dream, we are a multidisciplinary team that believes that
+								anything is possible. We will take care of everything necessary
+								to make a unique moment, a unique memory, something that will
+								last.
 							</p>
 							<div className='contactEventContainer'>
 								<a className='contactUs' href='/mdt-promotions#contact'>
@@ -37,9 +38,8 @@ const EventService = () => {
 					</div>
 				</div>
 				<SliderEvents />
-				<div className='footerEvent'>
-					<Footer />
-				</div>
+
+				<FooterEvent />
 			</div>
 		</>
 	);

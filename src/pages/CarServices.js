@@ -2,8 +2,8 @@ import React from 'react';
 import './styles/CarService.css';
 import carCover from '../assets/cars/carCover.jpg';
 import NavBar from '../components/NavBar';
-import Footer from '../components/Footer';
 import SliderCar from '../components/SliderCar';
+import FooterEvent from '../components/FooterEvent';
 
 const CarServices = () => {
 	return (
@@ -20,13 +20,11 @@ const CarServices = () => {
 					</figure>
 					<div className='textService'>
 						<p>
-							Lorem ipsum dolor sit amet consectetur adipisicing elit.
-							Reprehenderit numquam nobis cumque perferendis obcaecati quaerat
-							atque exercitationem ipsa nam aperiam, tempora itaque blanditiis
-							nemo animi odit! Lorem ipsum dolor sit amet consectetur
-							adipisicing elit. Repellat, vero hic eos id voluptates saepe cum
-							omnis libero! Praesentium Lorem, ipsum dolor sit amet consectetur
-							adipisicing elit. Quasi voluptas, quas facilis delectus
+							For an entrance, for a road, for an exit, the battles are won on
+							horseback, do you have any in mind? Do you want to create a unique
+							moment? There are no limits in the vehicles that we can get for
+							you, your imagination is the road and these four wheels are
+							waiting for you to be in exotic mode.
 						</p>
 
 						<div className='contactContainer'>
@@ -39,10 +37,7 @@ const CarServices = () => {
 			</div>
 
 			<SliderCar />
-
-			<div className='footerCar'>
-				<Footer />
-			</div>
+			<FooterEvent />
 		</>
 	);
 };
