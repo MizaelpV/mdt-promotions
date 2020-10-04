@@ -1,150 +1,150 @@
 .servicesTitle {
-	text-align: center;
-	margin-bottom: 5.5rem;
-	font-family: 'Fredoka One', cursive;
-	font-size: 3rem;
+  text-align: center;
+  margin-bottom: 5.5rem;
+  font-family: 'Fredoka One', cursive;
+  font-size: 3rem;
 }
 
 .img-container {
-	overflow: hidden;
-	padding: 0 15px;
-	position: relative;
+  overflow: hidden;
+  padding: 0 15px;
+  position: relative;
 }
 
 .img-container img {
-	display: block;
-	margin: 0 auto;
-	width: 700px;
-	height: 500px;
-	filter: brightness(90%) hue-rotate(13deg) saturate(141%);
-	object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  width: 700px;
+  height: 500px;
+  filter: brightness(90%) hue-rotate(13deg) saturate(141%);
+  object-fit: cover;
 }
 
 .img-container img:hover {
-	transform: scale(1.2) rotate(4deg);
-	transition: all 0.6s;
+  transform: scale(1.2) rotate(4deg);
+  transition: all 0.6s;
 }
 
 .btnContainer {
-	position: absolute;
-	bottom: -60px;
-	left: calc(311px - 160px);
+  position: absolute;
+  bottom: -60px;
+  left: calc(311px - 160px);
 }
 
 .buttonServices {
-	width: 150px;
-	padding: 0.85rem !important;
-	animation: testing 1000s;
-	position: relative;
-	overflow: hidden;
-	z-index: 1;
-	transition: 1s;
-	letter-spacing: 2px;
+  width: 150px;
+  padding: 0.85rem !important;
+  animation: testing 1000s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  transition: 1s;
+  letter-spacing: 2px;
 }
 
 .buttonServices:hover {
-	color: #fff !important;
-	background: none !important;
-	text-decoration: none !important;
+  color: #fff !important;
+  background: none !important;
+  text-decoration: none !important;
 }
 
 .buttonServices::before {
-	content: '';
-	height: 100%;
-	width: 0%;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	position: absolute;
-	background: #ad9897;
-	color: #fff;
-	z-index: -1;
-	transition: 1s;
+  content: '';
+  height: 100%;
+  width: 0%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: absolute;
+  background: #ad9897;
+  color: #fff;
+  z-index: -1;
+  transition: 1s;
 }
 
 .buttonServices:hover::before {
-	width: 180%;
-	height: 100%;
-	transition: 1s;
+  width: 180%;
+  height: 100%;
+  transition: 1s;
 }
 
 /*Media queries*/
 @media screen and (max-width: 1024px) {
-	.img-container img {
-		width: 500px;
-		height: 300px;
-	}
-	.btnContainer {
-		left: 28%;
-	}
+  .img-container img {
+    width: 500px;
+    height: 300px;
+  }
+  .btnContainer {
+    left: 28%;
+  }
 }
 
 @media screen and (max-width: 768px) {
-	.img-container {
-		padding: 50px 0;
-	}
-	.img-container img {
-		width: 90%;
-		height: 400px;
-	}
-	.btnContainer {
-		position: absolute;
-		bottom: -12px;
-		left: 40%;
-	}
+  .img-container {
+    padding: 50px 0;
+  }
+  .img-container img {
+    width: 90%;
+    height: 400px;
+  }
+  .btnContainer {
+    position: absolute;
+    bottom: -12px;
+    left: 40%;
+  }
 }
 
 @media screen and (max-width: 425px) {
-	.img-container {
-		padding: 60px 0;
-		margin: 0 auto;
-	}
-	.img-container img {
-		width: 100%;
-		height: 300px;
-	}
-	.servicesContainer {
-		margin-bottom: 800px;
-	}
-	.btnContainer {
-		position: absolute;
-		bottom: -25px;
-		left: 34.5%;
-	}
+  .img-container {
+    padding: 60px 0;
+    margin: 0 auto;
+  }
+  .img-container img {
+    width: 100%;
+    height: 300px;
+  }
+  .servicesContainer {
+    margin-bottom: 800px;
+  }
+  .btnContainer {
+    position: absolute;
+    bottom: -25px;
+    left: 34.5%;
+  }
 
-	.buttonServices {
-		width: 120px;
-		padding: 0.85rem 0.3rem !important;
-	}
+  .buttonServices {
+    width: 120px;
+    padding: 0.85rem 0.3rem !important;
+  }
 }
 
 @media screen and (max-width: 375px) {
-	.btnContainer {
-		position: absolute;
-		bottom: -25px;
-		left: 31.3%;
-	}
+  .btnContainer {
+    position: absolute;
+    bottom: -25px;
+    left: 31.3%;
+  }
 
-	.buttonServices {
-		width: 110px;
-		padding: 0.45rem 0.2rem !important;
-	}
+  .buttonServices {
+    width: 110px;
+    padding: 0.45rem 0.2rem !important;
+  }
 }
 
 @media screen and (max-width: 320px) {
-	.img-container img {
-		width: 100%;
-		height: 250px;
-	}
-	.btnContainer {
-		position: absolute;
-		bottom: -25px;
-		left: 32%;
-	}
+  .img-container img {
+    width: 100%;
+    height: 250px;
+  }
+  .btnContainer {
+    position: absolute;
+    bottom: -25px;
+    left: 32%;
+  }
 
-	.buttonServices {
-		width: 90px;
-		padding: 0.45rem 0.2rem !important;
-	}
+  .buttonServices {
+    width: 90px;
+    padding: 0.45rem 0.2rem !important;
+  }
 }
