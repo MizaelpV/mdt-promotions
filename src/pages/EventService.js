@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import NavBar from '../components/NavBar';
 import FooterEvent from '../components/FooterEvent';
 import EventPicture from '../assets/mainEventPicture.jpeg';
@@ -30,9 +31,9 @@ const EventService = () => {
 								last.
 							</p>
 							<div className='contactEventContainer'>
-								<a className='contactUs' href='/mdt-promotions#contact'>
+								<Link className='contactUs' to='/#contact'>
 									Contact us
-								</a>
+								</Link>
 							</div>
 						</div>
 					</div>

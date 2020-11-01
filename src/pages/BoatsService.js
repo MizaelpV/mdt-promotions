@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
 import NavBar from '../components/NavBar';
 import FooterEvent from '../components/FooterEvent';
 import boatService from '../assets/yatchMain.jpg';
@@ -23,9 +24,10 @@ const BoatsService = () => {
 								for your event and for your moment at sea.
 							</p>
 							<div className='contactBoatContainer'>
-								<a className='contactUsBoat' href='/mdt-promotions#contact'>
+								
+								<Link className='contactUsBoat' to='/#contact'>
 									Contact us
-								</a>
+								</Link>
 							</div>
 						</div>
 						<figure className='imgBoatContainer'>
@@ -34,7 +36,6 @@ const BoatsService = () => {
 					</div>
 				</div>
 				<SliderBoats />
-
 				<FooterEvent />
 			</div>
 		</>

@@ -8,7 +8,7 @@ function NavBar() {
 		<div className='container-navbar fixed-top'>
 			<div className='mdtContainer'>
 				<nav className='navbar navbar-expand-lg navbar-dark'>
-					<Link className='navbar-brand' to='/mdt-promotions'>
+					<Link className='navbar-brand' to='/'>
 						<img src={whiteLogo} alt='Logo' />
 					</Link>
 					<button
@@ -28,23 +28,23 @@ function NavBar() {
 						<div className='navbar-nav ml-auto'>
 							<Link
 								className='nav-item nav-link text-white'
-								to='/mdt-promotions'>
+								to='/'>
 								Home <span className='sr-only'></span>
 							</Link>
 							<a
 								className='nav-item nav-link text-white'
-								href='/mdt-promotions#services'>
+								href='/#services'>
 								Services
 							</a>
 							<a
 								className='nav-item nav-link text-white'
-								href='/mdt-promotions#aboutUs'>
+								href='/#aboutUs'>
 								About us
 							</a>
 
 							<a
 								className='nav-item nav-link text-white'
-								href='/mdt-promotions#contact'
+								href='/#contact'
 								tabIndex='-1'>
 								Contact
 							</a>

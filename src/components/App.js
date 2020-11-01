@@ -10,7 +10,7 @@ function App() {
 	return (
 		<BrowserRouter>
 			<Switch>
-				<Route exact path='/mdt-promotions' component={AppBuild} />
+				<Route exact path='/' component={AppBuild} />
 				<Route exact path='/carservices' component={CarServices} />
 				<Route exact path='/boatservices' component={BoatsService} />
 				<Route exact path='/eventservice' component={EventService} />

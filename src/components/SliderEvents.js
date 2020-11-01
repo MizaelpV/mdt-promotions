@@ -18,7 +18,6 @@ const SliderEvents = () => {
 						className='active'></li>
 					<li data-target='#carouselExampleIndicators' data-slide-to='1'></li>
 					<li data-target='#carouselExampleIndicators' data-slide-to='2'></li>
-					<li data-target='#carouselExampleIndicators' data-slide-to='3'></li>
 				</ol>
 				<div className='carousel-inner mdtContainer'>
 					<div className='carousel-item active'>
@@ -26,9 +25,6 @@ const SliderEvents = () => {
 					</div>
 					<div className='carousel-item'>
 						<img className='d-block w-100' src={eventOne} alt='Second slide' />
-					</div>
-					<div className='carousel-item'>
-						<img className='d-block w-100' src={eventThree} alt='Third slide' />
 					</div>
 					<div className='carousel-item'>
 						<img className='d-block w-100' src={eventFour} alt='Four slide' />

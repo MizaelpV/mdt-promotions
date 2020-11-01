@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './styles/CarService.css';
 import carCover from '../assets/cars/carCover.jpg';
 import NavBar from '../components/NavBar';
@@ -28,9 +29,9 @@ const CarServices = () => {
 						</p>
 
 						<div className='contactContainer'>
-							<a className='contactUs' href='/mdt-promotions#contact'>
+							<Link className='contactUs' to='/#contact'>
 								Contact us
-							</a>
+							</Link>
 						</div>
 					</div>
 				</div>
